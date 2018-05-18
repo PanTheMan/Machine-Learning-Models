@@ -1,0 +1,58 @@
+Result of restricting factors on evidence ['FP, True', 'CRP, True', 'IP, False', 'Trav, True']
+--------------------------------------------------
+Value     Trav
+0.05      True
+
+Value     Fraud
+0.99      False
+0.01      True
+
+Value     Fraud
+0.9       False
+0.9       True
+
+Value     Fraud     OC
+0.999     False     False
+0.99      False     True
+0.989     True      False
+0.98      True      True
+
+Value     OC
+0.4       False
+0.6       True
+
+Value     OC
+0.001     False
+0.1       True
+
+--------------------------------------------------
+New product factor on OC
+--------------------------------------------------
+Value     Fraud     OC
+0.0003996 False     False
+0.0594    False     True
+0.0003956 True      False
+0.0588    True      True
+
+--------------------------------------------------
+Summing out variable OC to get final intermediate factor
+--------------------------------------------------
+Value     Fraud
+0.0597996 False
+0.0591956 True
+
+--------------------------------------------------
+Result of final multiplication with only query variables: ['Fraud']
+--------------------------------------------------
+Value     Fraud
+0.0026641 False
+0.0000266 True
+
+--------------------------------------------------
+Normalized result
+--------------------------------------------------
+Value     Fraud
+0.9901    False
+0.0099    True
+
+--------------------------------------------------

@@ -1,1 +1,2 @@
 # Machine-Learning-Models
+A repository containing Machine Learning models and AI techniques, I coded in my personal time / school assignments. Each folder contains the data, found in either .xlsx or .txt format, python scripts that read in the data and use the model/technique to test accuracy. Most of the folders will also contain a graph/spreadsheet of results as various variables / queries are changed in the model.

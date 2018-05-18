@@ -1,0 +1,43 @@
+Result of restricting factors on evidence None
+--------------------------------------------------
+Value     Fraud     Trav
+0.996     False     False
+0.99      False     True
+0.004     True      False
+0.01      True      True
+
+Value     Trav
+0.95      False
+0.05      True
+
+--------------------------------------------------
+New product factor on Trav
+--------------------------------------------------
+Value     Fraud     Trav
+0.9462    False     False
+0.0495    False     True
+0.0038    True      False
+0.0005    True      True
+
+--------------------------------------------------
+Summing out variable Trav
+--------------------------------------------------
+Value     Fraud
+0.9957    False
+0.0043    True
+
+--------------------------------------------------
+Result of final multiplication with only query variables: ['Fraud']
+--------------------------------------------------
+Value     Fraud
+0.9957    False
+0.0043    True
+
+--------------------------------------------------
+Normalized result
+--------------------------------------------------
+Value     Fraud
+0.9957    False
+0.0043    True
+
+--------------------------------------------------
